@@ -3,10 +3,6 @@ $(document).ready(function(event) {
     var age = parseInt($("input#age").val());
     var gender = $("select#gender").val();
 
-
-
-
-
     //var celebrity2 = ("Melissa MCarthy")
     if (gender === 'male' && age < 30) {
       var celebrity = ("Scarlet Johansen");
